@@ -1,0 +1,77 @@
+
+
+body{
+    font-family: tittle;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    background-color: #ebfaf5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 5px;
+}
+
+nav a{
+    font-weight: lighter;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    text-align: end;
+    opacity: 60%;
+
+}
+
+nav a:hover{
+    opacity: 100%;
+}
+
+#logo{
+    display: flex;
+    width: 300px;
+    align-items: center;
+}
+
+#logo img{
+    width: 45%;
+    height: 45%;
+}
+
+#container{
+    margin: 20px;
+}
+
+#container h1{
+    opacity: 80%;
+}
+
+#container span{
+    color: #747474;
+    opacity: 100%;
+
+}
+
+h1, h2{
+    color:#260729;
+}
+
+h2{
+    margin-left: 70px;
+}
+
+#area-mapa{
+width: 20cm;
+
+}
+
+#graficoPizza{
+width: 20cm;
+
+}

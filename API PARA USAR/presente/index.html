@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/covid.jpeg">
+    <title>covidJK</title>
+</head>
+<body>
+    <header>
+        <h1>COVID19</h1>
+        <nav>
+            <a href="index.html">INICIO</a>
+            <a href="sobre.html">SOBRE</a>
+            <a href="equipe.html">EQUIPE</a>
+        </nav>
+    </header>
+    <button class="tablink" onclick="carregarInf();">Carregar informação</button>
+    <div id="container">
+        <div id="div-erro"></div>
+        <div id="area-mapa"></div>
+
+        <div id="graficoPizza">
+
+        </div>
+        <div id="tabela">
+            <table id="tabela-dados">
+                <thead>
+                    <tr>
+                        <th>Estado</th>
+                        <th>Sigla</th>
+                        <th>Casos</th>
+                        <th>Mortes</th>
+                        <th>Suspeitos</th>
+                        <th>Descartado</th>
+                    </tr>
+                </thead>
+                <tbody id="linhas"></tbody>
+            </table>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="js/script.js"></script>
+</html>
